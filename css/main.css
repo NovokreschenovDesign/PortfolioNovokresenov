@@ -1,38 +1,144 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap');
 body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    background: -webkit-linear-gradient(121deg, #4ebefe,#378fd9);/* Chrome 10-25, Safari 5.1-6 */                          
+    background: linear-gradient(121deg, #4ebefe,#378fd9);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-logo {
+    padding-top: 66px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+.item-header-left {
+    margin-top: 146px;
+    margin-bottom: 146px;
+}
+.item-header-left h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.3;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.item-header-left h1 span{
+    font-size: 60px;
+}
+.item-header-left p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 30px;
+} 
+.item-header-left button{
+    max-width: 222px;
+    height: 46px;
+    background: #ffd429;
+    border: none;
+}
+.item-header-left button a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
     color: #000;
+    margin: auto;
+    text-decoration: none;
+    padding: 0 20px;
+} 
+
+/* end header */
+
+.container h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+    margin: 70px 0;
+    text-align: center;
 }
-header h1{
-    color: red;
+.ul-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    text-align: center;
 }
-.text-one{
-    max-width: 110px;
-    background: blue;
+.li-content{
+    text-align: center;
+}
+.li-content img{
+    margin-bottom: 35px;
+}
+.li-content h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+.li-content p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+/* ent section content */
+.forms{
+background: #ecf3f8;
+text-align: center;
+}
+.container h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding-top: 80px;
+}
+.form{
+    padding-top: 50px;
+    padding-bottom: 106px;
+    max-width: 365px;
+    margin: 0 auto;
+}
+.forms input[type="text"], .forms input[type="email"], .forms input[type="tel"]{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 343px;
+    height: 48px;
+    border: 1px solid #bbbbbb;
+    padding: 0 10px 0 10px;
+    margin: 10px 0;
+}
+.forms input[type="submit"]{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    width: 365px;
+    height: 48px;
+    background: #ffd429;
+    border: none;
+    cursor: pointer;
+}
+/* end forms */
+.container-footer{
+    background: #164d7a;
+    text-align: center;
+    padding: 60px 0;
+}
+.container-footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     color: #fff;
-    padding: 1px;
-    margin-bottom: 100px;
-}
-span{
-    color: red;
-}
-section h2, footer h2{
-    background: green;
-    color: #fff;
-    padding: 5px;
-}
-a{
-    color: blue;
-}
-section .what{
-    background: green;
-    color: #fff;
-    padding: 50px;
-}
-.text-two{
-    margin-left: 110px;
-}
-section ul li{
-    font-size: 24px;
-    border: 1px solid #000;
-    padding: 5px 0;
 }
