@@ -1,42 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WAYUP FREE</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
-        <a href="#!" target="_blank"><img class="img" src="images/logo.jpeg" alt="WAYUP" style="width: 11%;"></a>
-            <h1>Вступление H1</h1>
-            <p class="text-one">Это текст моего первого домашнего задания.</p>
-            <p>Не верится, но мне уже удается писать свой <span>первый код на HTML.</span></p>
+        <div class="container">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="WAYUP LOGO">
+            </div>
+            <div class="header-content">
+                <div class="item-header-left">
+                    <h1>С помощью верстки <br> я создам ту жизнь, о которой <span>мечтаю!</span></h1>
+                    <p>Мои стремления + настойчивость позволят мне <br> достичь чего угодно. Я не верю в это. Я знаю это <br> на 100%. Меня не остановить!</p>
+                    <button><a href="#!">Двигаться к мечте!</a></button>
+                </div>
+                <div class="item-header-right">
+                    <img src="img/129983-ORUAFL-508.png" alt="ORUAFL">
+                </div>
+            </div>
+        </div>
     </header>
     <section>
-            <h2>Что дальше? H2</h2>
-            <p>Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новый вершин! <a href="https://ru.wikipedia.org/wiki/HTML">Прочитать больше в Google</a></p>
-    </section> 
-    <section>
-        <h2 class="what">Что я буду уметь? H2</h2>
-            <p class="text-two">Я смогу создавать вот такие замечательные формы:</p>
-            <form action="form">
-                <input type="Name" name="name" placeholder="Имя" required>
-                <input type="Email" name="email" placeholder="E-mail" required>
-                <input type="tel" name="tel" placeholder="Телефон" required>
-                <input type="submit" value="Отправить форму">
-            </form>
-            <p>А также, я научусь создавать списки:</p>
-            <ul>
-                <li>C одним пунктом</li>
-                <li>С несколькими пунктами</li>
-                <li>И даже с тремя отдельными пунктами</li>
+        <div class="container">
+            <h2>Что меня ждет впереди</h2>
+            <ul class="ul-container">
+                <li class="li-content">
+                    <img src="img/icons8-time-machine-96.png" alt="">
+                    <h3>Свободное время</h3>
+                    <p>Мне нужно свободное время на семью <br> и самое настоящее</p>
+                </li>
+                <li class="li-content">
+                    <img src="img/icons8-beach-96.png" alt="">
+                    <h3>Яркие путешествия</h3>
+                    <p>Работать откуда угодно - что может <br> быть лучше?</p>
+                </li>
+                <li class="li-content">
+                    <img src="img/icons8-launch-96.png" alt="">
+                    <h3>Создание ценности</h3>
+                    <p>Нет ничего сильнее, чем жить не просто <br> так, создавая ценность</p>
+                </li>
             </ul>
-    </section> 
+        </div>
+    </section>
+    <section class="forms">
+        <div class="container">
+            <h4>Форма заказа билета в будущее</h3>
+            <form action="#" class="form">
+                <input type="text" name="name" placeholder="Имя" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="tel" name="tel" placeholder="Телефон" required>
+                <input type="text" name="text" placeholder="Куда я полечу в ближайшее время?">
+                <input type="submit" name="submit" value="Двигаться к мечте!">
+            </form>
+        </div>
+    </section>
     <footer>
-            <h2>Отличное начало! H2</h2>
-            <a href="https://my.wayup.in/lesson/1801" target="_blank">Перейти на страницу первого занятия курса</a>
+        <div class="container-footer">
+            <p>
+                © Все мои мечты защищены моим трудолюбием
+            </p>
+        </div>
     </footer>
 </body>
 </html>
