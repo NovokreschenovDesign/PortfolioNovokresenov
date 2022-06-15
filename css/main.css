@@ -32,6 +32,7 @@ header{
     font-size: 60px;
 }
 .item-header-left p{
+    widtch: 500px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
