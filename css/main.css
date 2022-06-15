@@ -66,10 +66,10 @@ header{
     margin: 70px 0;
     text-align: center;
 }
-.ul-container{
+.card{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
     text-align: center;
 }
 .li-content{
