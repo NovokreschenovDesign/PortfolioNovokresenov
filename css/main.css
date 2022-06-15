@@ -9,8 +9,7 @@ header{
     background: linear-gradient(121deg, #4ebefe,#378fd9);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
 }
 .container {
-    max-width: 1200px;
-    padding: 0 15px;
+    max-width: 1170px;
     margin: 0 auto;
 }
 .header-logo {
@@ -19,10 +18,10 @@ header{
 .header-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .item-header-left {
-    padding-top: 146px;
-    padding-bottom: 146px;
+
 }
 .item-header-left h1{
     font-family: 'Ubuntu', sans-serif;
