@@ -75,6 +75,9 @@ header{
 .li-content{
     text-align: center;
 }
+.li-content p{
+    widtch: 289px;
+}
 .li-content img{
     margin-bottom: 35px;
 }
